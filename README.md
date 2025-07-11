@@ -26,12 +26,6 @@ This is a simple Laravel 12 web application for managing tasks organized by proj
 
 ```bash
 git clone git@github.com:glugox/task-manager.git
-cd task-manager
-composer install
-
-npm install
-cp .env.example .env
-
 
 ```
 
