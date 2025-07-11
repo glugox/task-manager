@@ -1,6 +1,6 @@
 # Laravel Task Manager with Projects and Drag-and-Drop Reordering
 
-This is a simple Laravel web application for managing tasks organized by projects. Features include:
+This is a simple Laravel 12 web application for managing tasks organized by projects. Features include:
 
 - Create and delete tasks
 - Drag-and-drop reordering of tasks with automatic priority updates
@@ -12,12 +12,11 @@ This is a simple Laravel web application for managing tasks organized by project
 
 ## Requirements
 
-- PHP >= 8.1
+- PHP >= 8.2
 - Composer
 - Node.js >= 18.x
 - npm or yarn
 - MySQL
-- Laravel 12
 
 ---
 
@@ -61,6 +60,15 @@ DB_USERNAME=your_db_user
 DB_PASSWORD=your_db_password
 ```
 
+Make sure to create the database specified in your `.env` file.
+For example:
+
+
+```
+CREATE DATABASE task_manager_db_2025071101;
+```
+
+
 ### 4. Generate application key
 ```bash
 php artisan key:generate
@@ -81,7 +89,7 @@ php artisan db:seed
 php artisan serve
 ```
 
-### 8. Compile assets
+### 8. In another console window, start the frontend development server
 ```bash
 npm run dev
 ```
