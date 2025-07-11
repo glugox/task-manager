@@ -2,6 +2,10 @@
 
 This is a simple Laravel 12 web application for managing tasks organized by projects. Features include:
 
+
+![Screenshot 1](https://raw.githubusercontent.com/glugox/task-manager/main/Screenshot.png)
+
+## Features
 - Create and delete tasks
 - Drag-and-drop reordering of tasks with automatic priority updates
 - Filter tasks by project
