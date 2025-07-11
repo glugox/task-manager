@@ -5,6 +5,8 @@ This is a simple Laravel 12 web application for managing tasks organized by proj
 
 ![Screenshot 1](https://raw.githubusercontent.com/glugox/task-manager/main/Screenshot.png)
 
+Watch on YouTube: [Task Manager ( CT ) Setup Instructions](https://youtu.be/ksidcbSWnzk)
+
 ## Features
 - Create and delete tasks
 - Drag-and-drop reordering of tasks with automatic priority updates
