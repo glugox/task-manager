@@ -4,7 +4,7 @@ export interface Project {
 }
 
 export interface Task {
-    id?: number | string
+    id?: number
     project_id: number
     name: string
     project: Project
