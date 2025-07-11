@@ -50,8 +50,8 @@ DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=task_manager_db_2025071101
-DB_USERNAME=your_db_user
-DB_PASSWORD=your_db_password
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 Make sure to create the database specified in your `.env` file.
